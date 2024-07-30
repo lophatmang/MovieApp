@@ -88,7 +88,7 @@ function ResultList(props) {
     <div className={classes.resultList}>
       {props.resultList && (
         <>
-          <h1>Search Resul</h1>
+          <h1>Search Result</h1>
           <div className={classes.listMovie}>
             {props.resultList && Array.isArray(props.resultList) ? (
               props.resultList.map(
