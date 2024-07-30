@@ -1,0 +1,67 @@
+/* .app {
+} */
+
+.searchForm {
+  background-color: white;
+  width: 600px;
+  margin: 0 auto;
+  .input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    input {
+      width: 100%;
+      border: none;
+      padding: 20px;
+    }
+    input:focus {
+      outline: none;
+      background-color: white;
+    }
+
+    svg {
+      margin-right: 20px;
+    }
+    svg:hover {
+      cursor: pointer;
+    }
+  }
+
+  .buttonFrom {
+    padding: 40px 30px;
+    text-align: right;
+  }
+
+  button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: white;
+    font-weight: bolder;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+}
+
+.resultList {
+  margin: 30px 20px 60px 20px;
+  color: white;
+  img {
+    width: 100%;
+  }
+  h2 {
+    margin: 50px auto;
+  }
+}
+
+.listMovie {
+  margin: 10px 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  img {
+    width: 150px;
+  }
+}
